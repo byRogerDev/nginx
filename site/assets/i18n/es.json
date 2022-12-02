@@ -1,0 +1,33 @@
+{
+  "test": "Iniciar",
+  "pages":{
+    "loginModule":
+      {
+        "login": {
+          "titulo" : "Iniciar Sesión"
+        }
+      }
+	},
+	"mails": {
+		"nou-usuari": {
+			"template": "nou-usuari.html",
+			"subject": "Bienvenido/a a Agrotech Suite!",
+			"variables": {
+				"hola-1": "Hola ",
+				"bienvenido-1": "Bienvenido/a a Agrotech Suite!",
+				"bienvenido-2": "El teu registre s’ha processat amb èxit.",
+				"Mensaje-1": "El teu correu electrònic d’accés és:",
+				"Correo_User":"Correu electrònic: ",
+				"Password_User":"Contrasenya: ",
+				"URL-1": "d’aquest enllaç. ",
+				"URL-1-Content":"www.google.es",
+				"Mensaje-4": "Per qualsevol pregunta, no dubtis en contactar-nos.",
+				"Mensaje-6":"Equip Agrotech Suite.",				
+				"URL-2":"Política privacitat de dades",
+				"URL-2-Content":"www.google.es",
+				"URL-3":"Informació legal",
+				"URL-3-Content": "www.google.es"
+			}
+		}
+	}
+}
